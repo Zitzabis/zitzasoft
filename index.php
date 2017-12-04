@@ -1,3 +1,8 @@
+<?php
+  $siteName = "Zitzasoft";
+  $author = "Stephen Floyd";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title><?php echo $siteName; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +36,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><?php echo $siteName; ?></a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -56,7 +61,7 @@
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">Start Bootstrap</h1>
+        <h1 class="text-uppercase mb-0"><?php echo $author; ?></h1>
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
       </div>
