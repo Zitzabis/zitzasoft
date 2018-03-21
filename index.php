@@ -10,17 +10,27 @@
             <div class="pageContent centerContent"> 
                 <?php include_once("components/nav.php"); ?>
                 <div>
-                    <div class="logo text-center">
-                        <a href="#">
-                            <img src="img/logo.png" onclick="logo()" width="100%">
-                        </a>
+                    <div style="position:relative">
+                        <div class="text-center centerContent" style="position:absolute">
+                            <img src="img/text.svg" onclick="logo()" class="circleSpin" style="width: 100%">
+                        </div>
+                        <div class="logo text-center">
+                            <a href="#">
+                                <img src="img/stephen.jpg" class="img-thumbnail rounded-circle logoImage" onclick="logo()" width="220">
+                            </a>
+                        </div>
                     </div>
                     <div class="logoCaption">
                         <h1 class="text-center">
                             <div>
-                                Start Mapping
+                                Stephen Floyd
                             </div>
                         </h1>
+                        <h3 class="text-center">
+                            <div>
+                                Web and Software Developer
+                            </div>
+                        </h3>
                     </div>
                 </div>
             </div>

@@ -2,32 +2,33 @@ function logo() {
     var relativeOffset = anime.timeline();
     relativeOffset
     .add({
-        targets: '.logoCaption',
-        translateY: '100',
-        easing: 'easeOutExpo',
-        duration: 500
-    })
-    .add({
         targets: '.logo',
         rotate: '180deg',
-        duration: 1000,
-        offset: '-=300' // Starts 600ms before the previous animation ends
+        duration: 1000
     })
     .add({
         targets: '.logo',
         rotate: '0deg',
         duration: 1000,
-        offset: '-=400' // Starts 600ms before the previous animation ends
-    })
-    .add({
-        targets: '.logoCaption',
-        translateY: '0',
-        duration: 500,
-        easing: 'easeOutExpo',
-        offset: '-=600', // Starts 600ms before the previous animation ends,
         complete: function(anim) {
             window.location.href = "home.php";
         }
+    })
+}
+
+function breathing() {
+    var relativeOffset = anime.timeline({
+        loop: true,
+        duration: 2500
+    });
+    relativeOffset
+    .add({
+        targets: '.logoImage',
+        scale: 0.9
+    })
+    .add({
+        targets: '.logoImage',
+        scale: 1
     })
 }
 
@@ -50,7 +51,21 @@ function buttonInflate(inflate) {
     }
 }
 
+function circleSpin() {
+    var infiniteLoop = anime({
+        targets: '.circleSpin',
+        rotate: '1turn',
+        easing: 'linear',
+        duration: 10000,
+        direction: 'reverse',
+        loop: true
+    });
+}
+
 $(document).ready(function() {
+    circleSpin();
+    breathing();
+
     function toggleSidebar() {
         $(".button").toggleClass("active");
         $("main").toggleClass("move-to-left");
