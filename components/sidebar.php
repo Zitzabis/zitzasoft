@@ -3,7 +3,7 @@
         <a href="index.php"><img src="img/stephen.jpg" class="img-thumbnail rounded-circle" width="50%"></a>
         <h4 style="color: white; padding-top: 0.5rem;">Stephen Floyd</h4>
         <li class="sidebar-item">
-            <a href="home.php" class="sidebar-anchor">
+            <a href="index.php" class="sidebar-anchor">
                 Home
             </a>
         </li>
