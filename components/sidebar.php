@@ -7,15 +7,15 @@
                 Home
             </a>
         </li>
-        <li class="sidebar-item">
+        <!-- <li class="sidebar-item">
             <a href="about.php" class="sidebar-anchor">
                 About
             </a>
-        </li>
-        <li class="sidebar-item">
+        </li> -->
+        <!-- <li class="sidebar-item">
             <a href="contact.php" class="sidebar-anchor">
                 Contact
             </a>
-        </li>
+        </li> -->
     </ul>
 </div>
