@@ -8,7 +8,7 @@
         <div class="col panel">
             <div>
                 <h5>City of Walhalla</h5>
-                Status: <span class="text-success">Current</span>
+                Status: <span class="text-warning">Current</span>
                 <br>
                 Link: <a href="http://walhalla.brycorpsolutions.com/">http://walhalla.brycorpsolutions.com/</a>
             </div>
@@ -31,7 +31,7 @@
         <div class="col panel">
             <div>
                 <h5>Collins Upstate Electrical</h5>
-                Status: <span class="text-success">Current</span>
+                Status: <span class="text-success">Completed</span>
                 <br>
                 Link: <a href="http://collinselectricalsc.com/">http://collinselectricalsc.com/</a>
             </div>
@@ -44,6 +44,21 @@
                     <li>Front-end and back-end web development for custom features</li>
                     <li>Database driven for dynamic content</li>
                 </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row rowPad">
+        <div class="col panel">
+            <div>
+                <h5>Classwork</h5>
+                Status: <span class="text-success">Completed</span>
+                <br>
+                Link: <a href="http://php.zitzasoft.com/">http://php.zitzasoft.com/</a>
+                <br>
+                GitHub: <a href="https://github.com/Zitzabis/AdvancedScripting">https://github.com/Zitzabis/AdvancedScripting</a>
+            </div>
+            <div class="rowPad">
+                PHP classwork for assignments while at Southern Wesleyan University.
             </div>
         </div>
     </div>
