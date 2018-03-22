@@ -45,6 +45,9 @@
                     <?php
                         if (isset($_GET["page"])) {
                             if ($_GET["page"] == "PHP" || $_GET["page"] == "java" || $_GET["page"] == "other") {
+                    ?>
+                                <a name="<?php echo $_GET["page"]; ?>"></a>
+                    <?php
                                 include_once("content/" . $_GET["page"] . ".php");
                             }
                             else {
@@ -65,7 +68,7 @@
                         </div>
                         <div class="row rowPad">
                             <div class="col">
-                                <a href="index.php?page=PHP" class="btn btn-outline-light btn-lg btn-block">PHP</a>
+                                <a href="index.php?page=PHP#PHP" class="btn btn-outline-light btn-lg btn-block">PHP</a>
                             </div>
                         </div>
                         <!-- <div class="row rowPad">
@@ -75,12 +78,12 @@
                         </div> -->
                         <div class="row rowPad">
                             <div class="col">
-                                <a href="index.php?page=java" class="btn btn-outline-light btn-lg btn-block">Java</a>
+                                <a href="index.php?page=java#java" class="btn btn-outline-light btn-lg btn-block">Java</a>
                             </div>
                         </div>
                         <div class="row rowPad">
                             <div class="col">
-                                <a href="index.php?page=other" class="btn btn-outline-light btn-lg btn-block">Other</a>
+                                <a href="index.php?page=other#other" class="btn btn-outline-light btn-lg btn-block">Other</a>
                             </div>
                         </div>
                     </div>
