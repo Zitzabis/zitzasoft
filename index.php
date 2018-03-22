@@ -31,6 +31,10 @@
                                 Web and Software Developer
                             </div>
                         </h3>
+                        <div class="text-center">
+                            <a href="https://github.com/Zitzabis"><img src="img/github.png" width="50" style="margin: 5px"></a>
+                            <a href="https://www.linkedin.com/in/stephen-floyd-859666160/"><img src="img/linkedin.png" width="50" style="margin: 5px"></a>
+                        </div>
                     </div>
                 </div>
                 <div class="text-center downArrow" style="position: fixed; bottom: 2rem;"><img src="img/down.svg" width="50"></div>
