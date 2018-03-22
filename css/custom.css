@@ -49,6 +49,7 @@ canvas { display:block; } /* To remove the scrollbars */
     padding: 2rem;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.082);
 }
 
 .buttonClear {
