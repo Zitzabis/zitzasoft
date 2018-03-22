@@ -32,7 +32,7 @@ canvas { display:block; } /* To remove the scrollbars */
     width: 100%;
     display: flex;
     position: absolute;
-    background-color: rgb(59, 64, 87);;
+    background-color: rgb(52, 51, 56);
 }
 
 .logo {
