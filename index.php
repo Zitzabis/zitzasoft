@@ -40,7 +40,7 @@
                 <div class="col" style="padding: 2rem">
                     <?php
                         if (isset($_GET["page"])) {
-                            if ($_GET["page"] == "PHP") {
+                            if ($_GET["page"] == "PHP" || $_GET["page"] == "java" || $_GET["page"] == "other") {
                                 include_once("content/" . $_GET["page"] . ".php");
                             }
                             else {
@@ -64,19 +64,19 @@
                                 <a href="index.php?page=PHP" class="btn btn-outline-light btn-lg btn-block">PHP</a>
                             </div>
                         </div>
-                        <div class="row rowPad">
+                        <!-- <div class="row rowPad">
                             <div class="col">
                                 <button type="button" class="btn btn-outline-light btn-lg btn-block">C++</button>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row rowPad">
                             <div class="col">
-                                <button type="button" class="btn btn-outline-light btn-lg btn-block">Java</button>
+                                <a href="index.php?page=java" class="btn btn-outline-light btn-lg btn-block">Java</a>
                             </div>
                         </div>
                         <div class="row rowPad">
                             <div class="col">
-                                <button type="button" class="btn btn-outline-light btn-lg btn-block">Other</button>
+                                <a href="index.php?page=other" class="btn btn-outline-light btn-lg btn-block">Other</a>
                             </div>
                         </div>
                     </div>
