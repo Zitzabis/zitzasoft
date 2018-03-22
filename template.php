@@ -13,10 +13,7 @@
                     <!-- Content Here -->
                 </div>
             </div>
-            <?php include_once("components/granim.php"); ?>
         </main>
         <?php include_once("components/sidebar.php"); ?>
     </body>
-
-    <?php include_once("components/granim.php"); ?>
 </html>
