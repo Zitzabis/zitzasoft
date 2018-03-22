@@ -1,3 +1,11 @@
+<?php
+    $u_agent = $_SERVER['HTTP_USER_AGENT'];
+    if(preg_match('/MSIE/i',$u_agent))
+    {
+        header("location: ie.html");
+    }
+?>
+
 <head>
     <title>Zitzasoft</title>
     <link rel="stylesheet" href="css/custom.css">
