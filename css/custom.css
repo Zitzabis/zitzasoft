@@ -60,3 +60,7 @@ canvas { display:block; } /* To remove the scrollbars */
     color: white !important;
     text-decoration: none !important; /* no underline */
 }
+
+.rowPad {
+    padding: 0.5rem;
+}

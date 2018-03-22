@@ -10,23 +10,44 @@
             <div class="pageContent regularContent"> 
                     <?php include_once("components/nav.php"); ?>
                     <div class="row">
-                        <div class="col-lg-8" style="padding: 2rem">
+                        <div class="col" style="padding: 2rem">
                             <div class="panel">
                                 content
                             </div>
                         </div>
-                        <div class="col-lg-4" style="padding: 2rem">
+                        <div class="col-lg-3" style="padding: 2rem">
                             <div class="panel">
-                                content
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h3>Languages</h3>
+                                    </div>
+                                </div>
+                                <div class="row rowPad">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-outline-light btn-lg btn-block">PHP</button>
+                                    </div>
+                                </div>
+                                <div class="row rowPad">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-outline-light btn-lg btn-block">C++</button>
+                                    </div>
+                                </div>
+                                <div class="row rowPad">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-outline-light btn-lg btn-block">Java</button>
+                                    </div>
+                                </div>
+                                <div class="row rowPad">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-outline-light btn-lg btn-block">C#</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <?php include_once("components/granim.php"); ?>
         </main>
         <?php include_once("components/sidebar.php"); ?>
     </body>
-
-    <?php include_once("components/granim.php"); ?>
 </html>
