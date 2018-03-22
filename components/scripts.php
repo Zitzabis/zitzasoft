@@ -4,3 +4,4 @@
 <script src="js/granim.min.js"></script>
 <script src="js/anime.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/prism.js"></script>
