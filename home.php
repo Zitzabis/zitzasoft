@@ -11,9 +11,19 @@
                     <?php include_once("components/nav.php"); ?>
                     <div class="row">
                         <div class="col" style="padding: 2rem">
-                            <div class="panel">
-                                content
-                            </div>
+                            <?php 
+                                if (isset($_GET["page"])) {
+                                    try {
+                                        include_once("content/" . $_GET["page"] . ".php");
+                                    }
+                                    catch(Exception $e) {
+                                        include_once("content/PHP.php");
+                                    }
+                                }
+                                else {
+                                    include_once("content/PHP.php");
+                                }
+                            ?>
                         </div>
                         <div class="col-lg-3" style="padding: 2rem">
                             <div class="panel">
@@ -39,7 +49,7 @@
                                 </div>
                                 <div class="row rowPad">
                                     <div class="col">
-                                        <button type="button" class="btn btn-outline-light btn-lg btn-block">C#</button>
+                                        <button type="button" class="btn btn-outline-light btn-lg btn-block">Other</button>
                                     </div>
                                 </div>
                             </div>
