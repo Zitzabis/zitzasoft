@@ -1,24 +1,20 @@
 <div class="sidebar">
     <ul class="sidebar-list">
-        <img src="img/logo.png" width="90%">
+        <a href="index.php"><img src="img/stephen.jpg" class="img-thumbnail rounded-circle" width="50%"></a>
+        <h4 style="color: white; padding-top: 0.5rem;">Stephen Floyd</h4>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-anchor">
-                Item 1
+            <a href="home.php" class="sidebar-anchor">
+                Home
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-anchor">
-                Item 2
+            <a href="about.php" class="sidebar-anchor">
+                About
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-anchor">
-                Item 3
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#" class="sidebar-anchor">
-                Item 4
+            <a href="contact.php" class="sidebar-anchor">
+                Contact
             </a>
         </li>
     </ul>
