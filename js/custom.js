@@ -62,9 +62,27 @@ function circleSpin() {
     });
 }
 
+function bounce() {
+    var relativeOffset = anime.timeline({
+        loop: true,
+        duration: 500,
+        easing: 'linear'
+    });
+    relativeOffset
+    .add({
+        targets: '.downArrow',
+        translateY: 15
+    })
+    .add({
+        targets: '.downArrow',
+        translateY: 0
+    })
+}
+
 $(document).ready(function() {
     circleSpin();
     breathing();
+    bounce();
 
     function toggleSidebar() {
         $(".button").toggleClass("active");

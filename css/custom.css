@@ -22,18 +22,18 @@ canvas { display:block; } /* To remove the scrollbars */
     height: 100%;
     width: 100%;
     display: flex;
-    position: fixed;
+    position: absolute;
     align-items: center;
     justify-content: center;
 }
 
 .regularContent {
+    color: white;
     height: 100%;
     width: 100%;
-    position: fixed;
-    padding-top: 5rem;
-    overflow-y:scroll;
-    overflow-x:hidden;
+    display: flex;
+    position: absolute;
+    background-color: rgb(59, 64, 87);;
 }
 
 .logo {
