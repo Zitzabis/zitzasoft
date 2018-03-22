@@ -38,12 +38,12 @@
             <?php include_once("components/granim.php"); ?>
             <div class="row regularContent">
                 <div class="col" style="padding: 2rem">
-                    <?php 
+                    <?php
                         if (isset($_GET["page"])) {
-                            try {
+                            if ($_GET["page"] == "PHP") {
                                 include_once("content/" . $_GET["page"] . ".php");
                             }
-                            catch(Exception $e) {
+                            else {
                                 include_once("content/PHP.php");
                             }
                         }
@@ -61,7 +61,7 @@
                         </div>
                         <div class="row rowPad">
                             <div class="col">
-                                <button type="button" class="btn btn-outline-light btn-lg btn-block">PHP</button>
+                                <a href="index.php?page=PHP" class="btn btn-outline-light btn-lg btn-block">PHP</a>
                             </div>
                         </div>
                         <div class="row rowPad">
