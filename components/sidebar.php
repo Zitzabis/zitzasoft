@@ -12,10 +12,10 @@
                 About
             </a>
         </li> -->
-        <!-- <li class="sidebar-item">
+        <li class="sidebar-item">
             <a href="contact.php" class="sidebar-anchor">
                 Contact
             </a>
-        </li> -->
+        </li>
     </ul>
 </div>
